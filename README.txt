@@ -1,6 +1,16 @@
-How to run this program:
+Easy to Install:
+In your terminal, run:
+./install.sh
 
-1. You must have ruby preinstalled in your laptop.
-2. clone this project to your local environment
-3. run command:  ruby fraction_calculator.rb
-4. You will see all test cases' result and output.
+Then, you are good to use this tool.
+
+example:
+1. Get help information
+? -h
+
+2. Get example cases
+? -e
+
+3. Valid input
+? 1/3+1/4
+= 7/12
