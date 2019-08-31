@@ -18,7 +18,7 @@ https://rvm.io/
 
 2. Easy to Install:
 In your terminal, run:
-./install.sh
+. ./install.sh
 
 Then, you are good to use this tool.
 

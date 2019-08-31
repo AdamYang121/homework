@@ -46,9 +46,10 @@ elsif argv_len == 1 && ('-e' == ARGV[0] || '--example' == ARGV[0])
                "1/2-1",
                ""]
   test_case.each_with_index do |input, index|
-    # puts "Test case #{index + 1}:    " + input
+    puts "? #{input}"
     cal = Calculator.new(input)
-    puts "= #{cal.calculate}\n"
+    result = cal.calculate
+    puts "= #{result}\n" if result && result.size > 0
   end
 else
   cal = Calculator.new(input)
